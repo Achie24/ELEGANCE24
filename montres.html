@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Égérée Montres - Location de Montres Égérées</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Égérée Montres</h1>
+        <nav>
+            <ul>
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#montres">Montres</a></li>
+                <li><a href="#tarifs">Tarifs</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="accueil">
+            <h2>Bienvenue chez Égérée Montres</h2>
+            <p>Location de montres égérées de qualité à des prix compétitifs.</p>
+        </section>
+        <section id="montres">
+            <h2>Montres</h2>
+            <div class="montres">
+                <!-- Ajouter des div avec des classes de type "montre" et "prix" pour chaque montre -->
+            </div>
+        </section>
+        <section id="tarifs">
+            <h2>Tarifs</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Type de Montre</th>
+                        <th>Prix</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Ajouter des lignes pour chaque type de montre et prix -->
+                </tbody>
+            </table>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <form action="php/envoi_mail.php" method="post">
+                <label for="nom">Nom :</label>
+                <input type="text" id="nom" name="nom" required>
+                <label for="email">Email :</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message :</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Envoyer</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2022 Égérée Montres. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
